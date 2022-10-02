@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="microprocessors:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>microprocessors</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="microprocessors-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="microprocessors:war exploded" />
+    </root>
+  </artifact>
+</component>
