@@ -9,6 +9,7 @@
 </head>
 <body>
 <main>
+
     <div class="container">
         <h2 class="text-center">MySQL CRUD</h2>
         <div class="row">
@@ -17,7 +18,7 @@
             </div>
             <div class="col-12">
                 <table class="bg-light">
-                    <thead>
+                    <thead class="darken-50">
                     <tr>
                         <th rowspan="2">Модель МП</th>
                         <th colspan="2">Разрядность, бит</th>

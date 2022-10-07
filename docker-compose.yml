@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  servlet:
+    build: .
+    ports:
+      - "8080:8080"
+
+  app-db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: hardware
+      MYSQL_ROOT_PASSWORD: Matrix12_
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./src/main/db:/docker-entrypoint-initdb.d/:ro
